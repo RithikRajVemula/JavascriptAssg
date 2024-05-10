@@ -1,0 +1,31 @@
+/* Side Navigation Styles */
+.sidebar {
+    height: 100vh; /* Full height */
+    width: 250px; /* Width of the side nav */
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 0; /* Align to the left */
+    background-color: #eb6c6c; /* Background color */
+    padding-top: 20px; /* Padding at the top */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.sidebar a {
+    display: block; /* Make each link a block */
+    color: #fff; /* White text color */
+    padding: 12px 16px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    margin: 8px 0; /* Margin between links */
+}
+
+.sidebar a:hover {
+    background-color: #d64444; /* Darker background on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+/* Main content area */
+.main {
+    margin-left: 250px; /* Margin left for main content */
+    padding: 20px; /* Padding */
+}

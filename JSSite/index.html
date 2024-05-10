@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mainjs.css">
+</head>
+<body>
+    <div class="sidebar">
+            <a href="index.html">Home</a>
+            <a href="Home.html">Home Town</a>
+            <a href="Hobby.html">Hobbies</a>
+            <a href="About.html">About</a>
+    </div>
+    <div class="main">
+       <h3>This is my HomePage!!</h3>
+
+    <table>
+        <tr>
+            <th>Text</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td><p id="text">Click the button to change the text!</p></td>
+            <td>
+                <button id="clicker1">Clicker 1</button>
+                <button id="clicker2">Clicker 2</button>
+                <button id="clicker3">Clicker 3</button>
+            </td>
+        </tr>
+    </table>
+
+    <form>
+        <input type="text" id="anyText" placeholder="Enter text" required>
+        <button type="submit" onclick="return isEmpty()">Next</button>
+        <p id="errorText" style="display:none;color:red;">Enter any text!</p>
+    </form>
+
+    <h2 style="text-align: center;">Team Sports</h2>
+    
+    <button class="heading">Volleyball</button>
+    <div class="description">
+        <p>This physically demanding sport requires two sides of six players to hit a larger ball across the net suspended within an indoor court. Its complex and fast-paced nature permits volleys to be sent back and forth with a strength requirement for successful teams. The game has great appeal, with rising popularity over the centuries. It is also an Olympic sport, and governing bodies like FIVB host several international competitions.</p>
+    </div>    
+
+    <button class="heading">Baseball</button>
+    <div class="description">
+        <p>Popular in the US and Japan, baseball is a team sport involving batting or pitching from one side. It generally consists of two teams with nine players competing within four innings. Here, the nine batters have to hit a small leather ball their opponent’s pitcher throws, trying to score points or ‘runs’ to break each inning.</p>
+    </div>
+    
+    <button class="heading">Rugby</button>
+    <div class="description">
+        <p>This is one of the more physical outdoor sports, which has been an ancient tradition for many countries in Europe and Oceania. Similar to American Football, Rugby features two groups fighting intensely over a ball, but the rules are far less complicated while it is mainly a contact sport. With two teams of 15 members each, the aim is to move an oval-shaped ball up and across the pitch – ultimately ending in one team’s ‘try zone.’</p>
+    </div>
+
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>

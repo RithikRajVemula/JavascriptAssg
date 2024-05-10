@@ -1,0 +1,133 @@
+/* CSS for accordion and button styles */
+
+.content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+}
+
+.clicker {
+    background-color: #eb6c6c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.clicker:hover {
+    background-color: #f29f9f;
+}
+
+/* CSS for error message */
+.errorText {
+    display: none;
+    color: red;
+    margin-top: 5px;
+}
+table {
+    width: 40%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Button styling */
+button {
+    background-color: #eb6c6c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f29f9f;
+}
+
+/* Form styling */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"], button[type="submit"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Error message styling */
+#errorText {
+    display: none;
+    color: red;
+    margin-top: 5px;
+}
+
+/* Accordion styling */
+.description {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-left: 10px;
+}
+
+
+.heading {
+    background-color: #f2a4a4;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+}
+
+.heading:hover {
+    background-color: #fa6d6d;
+}
+
+.heading.active:after {
+    content: "\25BC"; /* down arrow */
+    transform: rotate(180deg);
+}
+
+.heading:not(.active):after {
+    content: "\25BC"; /* down arrow */
+    transform: rotate(0deg);
+}
+
+
+.active {
+    background-color: #f79494;
+}
